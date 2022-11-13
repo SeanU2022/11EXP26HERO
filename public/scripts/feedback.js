@@ -3,6 +3,7 @@ const feedbackForm = document.getElementById('feedback-form');
 // Handle when a user submits feedback
 feedbackForm
   .addEventListener('submit', (e) => {
+    // prevent clicking on any section
     e.preventDefault();
 
     // Get the feedback text from the DOM and assign it to a variable
